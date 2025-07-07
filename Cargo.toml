@@ -1,0 +1,10 @@
+[package]
+name = "ThinkCli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cursive = { version = "0.21.1", features = ["crossterm-backend"] }
+diesel = { version = "2.2.11", features = ["postgres"] }
+dotenv = "0.15.0"
+postgres = "0.19.10"
